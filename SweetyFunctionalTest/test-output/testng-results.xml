@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43929" started-at="2016-05-15T10:03:16Z" finished-at="2016-05-15T10:04:00Z">
+  <suite name="Default suite" duration-ms="328898" started-at="2016-05-17T11:57:31Z" finished-at="2016-05-17T12:03:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43929" started-at="2016-05-15T10:03:16Z" finished-at="2016-05-15T10:04:00Z">
+    <test name="Default test" duration-ms="328898" started-at="2016-05-17T11:57:31Z" finished-at="2016-05-17T12:03:00Z">
       <class name="com.sweety.testCase.FunctionalTest">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.sweety.testCase.FunctionalTest@4563e9ab]" name="login" is-config="true" duration-ms="15319" started-at="2016-05-15T15:33:16Z" finished-at="2016-05-15T15:33:32Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.sweety.testCase.FunctionalTest@6b53e23f]" name="login" is-config="true" duration-ms="11569" started-at="2016-05-17T17:27:31Z" finished-at="2016-05-17T17:27:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="FuncTest()[pri:0, instance:com.sweety.testCase.FunctionalTest@4563e9ab]" name="FuncTest" duration-ms="28064" started-at="2016-05-15T15:33:32Z" finished-at="2016-05-15T15:34:00Z">
+        <test-method status="PASS" signature="FuncTest(java.lang.String)[pri:0, instance:com.sweety.testCase.FunctionalTest@6b53e23f]" name="FuncTest" duration-ms="59970" started-at="2016-05-17T17:27:43Z" data-provider="getData" finished-at="2016-05-17T17:28:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FuncTest -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.sweety.testCase.FunctionalTest@4563e9ab]" name="closeApp" is-config="true" duration-ms="528" started-at="2016-05-15T15:34:00Z" finished-at="2016-05-15T15:34:00Z">
+        <test-method status="PASS" signature="FuncTest(java.lang.String)[pri:0, instance:com.sweety.testCase.FunctionalTest@6b53e23f]" name="FuncTest" duration-ms="63571" started-at="2016-05-17T17:28:46Z" data-provider="getData" finished-at="2016-05-17T17:29:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FuncTest -->
+        <test-method status="PASS" signature="FuncTest(java.lang.String)[pri:0, instance:com.sweety.testCase.FunctionalTest@6b53e23f]" name="FuncTest" duration-ms="50049" started-at="2016-05-17T17:29:51Z" data-provider="getData" finished-at="2016-05-17T17:30:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[250]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FuncTest -->
+        <test-method status="PASS" signature="FuncTest(java.lang.String)[pri:0, instance:com.sweety.testCase.FunctionalTest@6b53e23f]" name="FuncTest" duration-ms="59392" started-at="2016-05-17T17:30:43Z" data-provider="getData" finished-at="2016-05-17T17:31:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FuncTest -->
+        <test-method status="PASS" signature="FuncTest(java.lang.String)[pri:0, instance:com.sweety.testCase.FunctionalTest@6b53e23f]" name="FuncTest" duration-ms="69264" started-at="2016-05-17T17:31:44Z" data-provider="getData" finished-at="2016-05-17T17:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FuncTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.sweety.testCase.FunctionalTest@6b53e23f]" name="closeApp" is-config="true" duration-ms="1022" started-at="2016-05-17T17:32:57Z" finished-at="2016-05-17T17:32:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->

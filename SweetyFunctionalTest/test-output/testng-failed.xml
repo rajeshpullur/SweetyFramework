@@ -7,7 +7,7 @@
         <methods>
           <include name="closeApp"/>
           <include name="login"/>
-          <include name="FuncTest"/>
+          <include name="FuncTest" invocation-numbers="1 2 3"/>
         </methods>
       </class> <!-- com.sweety.testCase.FunctionalTest -->
     </classes>
